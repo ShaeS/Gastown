@@ -1,2 +1,0 @@
-# Gastown
-Website for Gastown

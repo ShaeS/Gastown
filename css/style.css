@@ -450,3 +450,213 @@ margin-top:-14%;
 .all {
 	color:#c1bd53;	
 }
+
+
+
+#dirpic {
+  text-align: center;
+  color:white;
+  background-image: url(../img/Menus/directory.jpg);
+  height: 46%;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  background-position: center;
+  filter: grayscale(0.5);
+  transition: .2s ease-in-out;
+  -webkit-filter: grayscale(0.5);
+  -webkit-transition: .2s ease-in-out;
+  -moz-filter: grayscale(0.5);
+  -moz-transition: .2s ease-in-out;
+  -o-filter: grayscale(0.5);
+  -o-transition: .2s ease-in-out;
+}
+
+#dirpic:hover {
+  filter:grayscale(0);
+  -webkit-filter:grayscale(0);
+  -ms-filter:grayscale(0);
+}
+
+#dirpic h1 {
+  margin:0;
+  font-size: 3em;
+  background-color: rgba(0,0,0,0.4);
+  width:100%;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+#neighpic {
+  text-align: center;
+  color: white;
+  background-image: url(../img/Menus/neighbourhood.jpg);
+  height: 46%;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  background-position: center
+  filter: grayscale(0.8);
+  transition: .2s ease-in-out;
+  -webkit-filter: grayscale(0.8);
+  -webkit-transition: .2s ease-in-out;
+  -moz-filter: grayscale(0.8);
+  -moz-transition: .2s ease-in-out;
+  -o-filter: grayscale(0.8);
+  -o-transition: .2s ease-in-out;
+}
+
+#neighpic:hover {
+  filter:grayscale(0);
+  -webkit-filter:grayscale(0);
+  -ms-filter:grayscale(0);
+}
+
+#neighpic h1 {
+  margin:0;
+  font-size: 3em;
+  background-color: rgba(0,0,0,0.4);
+  width:100%;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.menua {
+  text-decoration: none; 
+}
+
+
+.menueffects h1 {
+  margin:0;
+  font-size: 3em;
+  background-color: rgba(0,0,0,0.4);
+  width:100%;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+
+.menueffects {
+  text-align: center;
+  color:white;
+  height: 46%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  background-position: center;
+  filter: grayscale(0.5);
+  transition: .2s ease-in-out;
+  -webkit-filter: grayscale(0.5);
+  -webkit-transition: .2s ease-in-out;
+  -moz-filter: grayscale(0.5);
+  -moz-transition: .2s ease-in-out;
+  -o-filter: grayscale(0.5);
+  -o-transition: .2s ease-in-out;
+}
+
+.menueffects:hover {
+  filter:grayscale(0);
+  -webkit-filter:grayscale(0);
+  -ms-filter:grayscale(0);
+}
+
+#restpic {
+  width:50%;
+  background-image: url(../img/Menus/rest.jpg);
+  float: left;
+}
+
+#buspic {
+  width:50%;
+  background-image: url(../img/Menus/bus.jpg);
+  float:right;
+}
+
+#artspic {
+  width:50%;
+  background-image: url(../img/Menus/art.jpg);
+  float:left;
+}
+
+#shoppic {
+  width:50%;
+  background-image: url(../img/Menus/shop.jpg);
+  float: right;
+}
+
+#hispic {
+  width:50%;
+  background-image: url(../img/Menus/hist.jpg);
+  float: left;
+}
+
+#evepic {
+  width:50%;
+  background-image: url(../img/Menus/event.jpg);
+  float:right;
+}
+
+#propic {
+  width:50%;
+  background-image: url(../img/Menus/program.jpg);
+  float:left;
+}
+
+#galpic {
+  width:50%;
+  background-image: url(../img/Menus/gallery.jpg);
+  float: right;
+}
+
+@media (max-width: 768px) {
+  #restpic {
+  width:100%;
+  float: none;
+}
+
+#buspic {
+  width:100%;
+  float:none;
+}
+
+#artspic {
+  width:100%;
+  float:none;
+}
+
+#shoppic {
+  width:100%;
+  float: none;
+}
+  
+#hispic {
+  width:100%;
+  float: none;
+}
+
+#evepic {
+  width:100%;
+  float:none;
+}
+
+#propic {
+  width:100%;
+  float:none;
+}
+
+#galpic {
+  width:100%;
+  float: none;
+}
+}
